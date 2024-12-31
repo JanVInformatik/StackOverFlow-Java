@@ -4,6 +4,7 @@ public class Main {
   }
 
   static public int StackOverFlowRecursive(int x) {
+    System.out.println(x);
     return StackOverFlowRecursive(x + 1);
   }
 }
